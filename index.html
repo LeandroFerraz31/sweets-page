@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delícias da Sara - Doces Caseiros</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container-header">
+      <a href="#home"><img src="assets/logo.jpeg" alt="Delícias da Sara Logo" class="logo"></a>
+      <div class="letreiro">
+  <h1 class="logo-text">Delícias d <span class="heart-letter">  </span>    Sara</h1>
+
+      <nav class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#depoimentos">Depoimentos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      </div>
+      <div class="social-icons">
+        <a href="https://www.instagram.com/deliciasdasara2020" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/555185294087" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <div class="menu-toggle" id="menu-toggle"><i class="fas fa-bars"></i></div>
+    </div>
+  </header>
+
+  <!-- Seção Inicial -->
+  <section id="home" class="imagem-texto-section">
+    <div class="imagem-texto-container">
+      <div class="imagem-texto-conteudo">
+        <h1>Doces Caseiros com Amor e Sabor</h1>
+        <p>Transformamos momentos especiais com bolos, doces e sobremesas feitos artesanalmente, usando ingredientes frescos e muito carinho.</p>
+        <p>Encomende agora e experimente o sabor único das Delícias da Sara!</p>
+        <a href="#contato" class="btn">Faça sua Encomenda</a>
+      </div>
+      <div class="imagem-texto-imagem">
+        <img src="/assets/bolo_principal.png" alt="Bolo Caseiro">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Propósito -->
+  <section id="proposito" class="proposito-section">
+    <div class="container">
+      <div class="hero-texto">
+        <h1>Nosso Propósito</h1>
+        <p>"Doce é compartilhar felicidade! Queremos adoçar sua vida com sobremesas que unem sabor, qualidade e memórias afetivas."</p>
+        <a href="https://wa.me/numero" class="btn">Fale Conosco</a>
+      </div>
+      <div class="hero-img">
+        <img src="/assets/sobremesa-funde.jpeg" alt="Sobremesas Delícias da Sara">
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Produtos -->
+  <section id="produtos" class="servicos-section">
+    <div class="container">
+      <h2>Nossos Produtos</h2>
+      <div class="cards-servicos">
+        <div class="card-servico">
+          <img src="/assets/bolo_personalizado.jpeg" alt="Bolos Personalizados">
+          <h3>Bolos Personalizados</h3>
+          <p>Bolos decorados para aniversários, casamentos e eventos especiais, feitos sob medida para o seu momento.</p>
+        </div>
+        <div class="card-servico">
+          <img src="/assets/personalizados.jpeg" alt="Doces Finos">
+          <h3>Doces Finos</h3>
+          <p>Brigadeiros gourmet, beijinhos e outros doces para tornar sua festa inesquecível.</p>
+        </div>
+        <div class="card-servico">
+          <img src="/assets/sobremesas.jpeg" alt="Sobremesas">
+          <h3>Sobremesas</h3>
+          <p>Tortas, pavês e sobremesas caseiras para adoçar o seu dia a dia ou eventos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Depoimentos -->
+  <section id="depoimentos" class="depoimentos">
+    <div class="container">
+      <h2>Depoimentos</h2>
+      <div class="carrossel">
+        <div class="slide ativo">
+          <div class="comentario">
+            <div class="estrelas">★★★★★</div>
+            <blockquote>"Os bolos da Sara são incríveis! Sempre deliciosos e feitos com muito capricho."</blockquote>
+            <cite>- Ana Clara</cite>
+          </div>
+          <div class="comentario">
+            <div class="estrelas">★★★★★</div>
+            <blockquote>"Os doces finos foram o destaque da minha festa. Todos elogiaram!"</blockquote>
+            <cite>- Fernanda Lima</cite>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="comentario">
+            <div class="estrelas">★★★★★</div>
+            <blockquote>"A torta de limão é a melhor que já comi! Super recomendo."</blockquote>
+            <cite>- João Pedro</cite>
+          </div>
+          <div class="comentario">
+            <div class="estrelas">★★★★★</div>
+            <blockquote>"Atendimento impecável e entrega no prazo. Tudo perfeito!"</blockquote>
+            <cite>- Mariana Costa</cite>
+          </div>
+        </div>
+        <button class="prev">❮</button>
+        <button class="next">❯</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contato" class="contato">
+    <div class="container-contato">
+      <h2>Entre em Contato</h2>
+      <div class="form-box">
+        <form>
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" required>
+          <label for="email">Seu Melhor Email</label>
+          <input type="email" id="email" required>
+          <label for="telefone">Telefone (com DDD)</label>
+          <input type="tel" id="telefone" required>
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" rows="5" required></textarea>
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="logo-footer">
+        <img src="assets/logo_footer.jpeg" alt="Delícias da Sara Logo" class="logo">
+      </div>
+      <div class="footer-info">
+        
+        <p>Contato: (51) 98529-4087 | deliciasdasara@gmail.com</p>
+        <hr>
+        <p>© 2025 Delícias da Sara - Todos os direitos reservados. Desenvolvido por <a class="footer__link" target="_blank" href="https://wa.me/5551983012611">Leandro Ferraz</a></p>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/deliciasdasara2020" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/numero" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão WhatsApp Fixo -->
+  <a href="https://wa.me/555185294087" class="whatsapp-fixo" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>

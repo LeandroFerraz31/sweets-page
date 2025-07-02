@@ -450,7 +450,7 @@ form button:hover {
 }
 
 .logo-footer img {
-  max-width: 160px;
+  max-width: 120px;
   border-radius: 50%;
 }
 
@@ -478,6 +478,7 @@ form button:hover {
   font-weight: bold;
   font-size: 17px;
 }
+
 
 /* Botão WhatsApp Fixo */
 .whatsapp-fixo {

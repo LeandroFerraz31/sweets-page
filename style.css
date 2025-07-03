@@ -518,16 +518,24 @@ form button:hover {
   }
 }
 
-/* Responsivo */
 @media screen and (max-width: 768px) {
+  body {
+    padding: 0 10px; /* Adiciona espaço nas laterais */
+  }
+
   .container-header {
     flex-wrap: wrap;
     gap: 10px;
+    justify-content: center;
   }
 
   .logo {
     order: 1;
     width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
   }
 
   .social-icons {
@@ -541,8 +549,6 @@ form button:hover {
     color: #f8c1b8;
     cursor: pointer;
   }
-
-
 
   .nav {
     order: 4;
@@ -564,6 +570,7 @@ form button:hover {
     flex-direction: column;
     gap: 20px;
     text-align: center;
+    padding: 0 10px;
   }
 
   .imagem-texto-conteudo,
@@ -577,6 +584,12 @@ form button:hover {
     width: 100%;
   }
 
+  .imagem-texto-imagem img,
+  .hero-img img {
+    width: 100%;
+    height: auto;
+  }
+
   .cards-servicos {
     flex-direction: column;
     gap: 25px;
@@ -586,17 +599,17 @@ form button:hover {
     width: 100%;
   }
 
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
   .slide.ativo .comentario {
     display: none;
   }
 
   .slide.ativo .comentario:first-child {
     display: block;
-  }
-
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 }

@@ -75,7 +75,7 @@ body {
 }
 
 .heart-letter::after {
-  content: '♥';
+  /* content: '♥'; */
   font-size: 5.2rem;
   color: #e74c3c;
   position: absolute;
